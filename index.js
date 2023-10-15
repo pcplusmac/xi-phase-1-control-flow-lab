@@ -14,6 +14,9 @@ function scuberGreetingForFeet(feet){
   else if (distance > 2500) {
     msg = "No can do.";
   }
+  else {
+    msg = "please enter the distance for your ride. "
+  }
 
 
   console.log(msg);
