@@ -31,8 +31,23 @@ function ternaryCheckCity(city){
   return msg;
 }
 
-function switchOnCharmFromTip(){
+function switchOnCharmFromTip(tip){
   // Write your code here!
+  let msg;
+
+  switch(tip) {
+    case "generous":
+      msg = "Thank you so much.";
+      break;
+    case "not as generous":
+      msg = "Thank you.";  
+      break;
+    default:
+      msg = "Bye." 
+  }
+  return msg;
+  
+
 }
 
 // scuberGreetingForFeet(350);
