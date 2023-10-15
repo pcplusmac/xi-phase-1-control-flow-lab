@@ -8,6 +8,7 @@ function scuberGreetingForFeet(feet){
   else if (distance <= 2000) {
     msg = "That will be twenty bucks.";
   }
+  console.log(msg);
   return msg;
 }
 
