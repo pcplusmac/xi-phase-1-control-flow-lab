@@ -1,11 +1,14 @@
-function scuberGreetingForFeet(){
+function scuberGreetingForFeet(feet){
   // Write your code here!
-  let feet = 350;
+  let distance = feet;
   let msg;
-  if (feet <= 400) {
+  if (distance <= 400) {
     msg = "This one is on me!";
-    return msg;
   }
+  else if (distance <= 2000) {
+    msg = "That will be twenty bucks.";
+  }
+  return msg;
 }
 
 function ternaryCheckCity(){
@@ -15,3 +18,5 @@ function ternaryCheckCity(){
 function switchOnCharmFromTip(){
   // Write your code here!
 }
+
+scuberGreetingForFeet(350);
