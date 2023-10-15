@@ -1,13 +1,13 @@
 {
   "stats": {
     "suites": 2,
-    "tests": 2,
-    "passes": 2,
+    "tests": 3,
+    "passes": 3,
     "pending": 0,
     "failures": 1,
-    "start": "2023-10-15T00:33:14.089Z",
-    "end": "2023-10-15T00:33:14.676Z",
-    "duration": 587
+    "start": "2023-10-15T00:43:52.137Z",
+    "end": "2023-10-15T00:43:52.717Z",
+    "duration": 580
   },
   "tests": [
     {
@@ -20,7 +20,14 @@
     {
       "title": "charges 20 dollars for a distance between 400 and 2000 feet",
       "fullTitle": "index.js scuberGreetingForFeet() charges 20 dollars for a distance between 400 and 2000 feet",
-      "duration": 1,
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "charges 30 dollars for a distance over 2000 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
@@ -28,15 +35,16 @@
   "pending": [],
   "failures": [
     {
-      "title": "charges 30 dollars for a distance over 2000 feet",
-      "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
-      "duration": 1,
+      "title": "does not allow rides over 2500 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
+      "duration": 2,
       "currentRetry": 0,
       "err": {
-        "message": "expected undefined to equal 'I will gladly take your thirty bucks.'",
+        "message": "expected 'I will gladly take your thirty bucks.' to equal 'No can do.'",
         "showDiff": true,
-        "expected": "I will gladly take your thirty bucks.",
-        "stack": "AssertionError: expected undefined to equal 'I will gladly take your thirty bucks.'\n    at Context.<anonymous> (test/indexTest.js:14:46)\n    at process.processImmediate (node:internal/timers:476:21)"
+        "actual": "I will gladly take your thirty bucks.",
+        "expected": "No can do.",
+        "stack": "AssertionError: expected 'I will gladly take your thirty bucks.' to equal 'No can do.'\n    at Context.<anonymous> (test/indexTest.js:18:46)\n    at process.processImmediate (node:internal/timers:476:21)"
       }
     }
   ],
@@ -51,7 +59,14 @@
     {
       "title": "charges 20 dollars for a distance between 400 and 2000 feet",
       "fullTitle": "index.js scuberGreetingForFeet() charges 20 dollars for a distance between 400 and 2000 feet",
-      "duration": 1,
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "charges 30 dollars for a distance over 2000 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
