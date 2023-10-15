@@ -23,12 +23,16 @@ function scuberGreetingForFeet(feet){
   return msg;
 }
 
-function ternaryCheckCity(){
+function ternaryCheckCity(city){
   // Write your code here!
+  let msg;
+  city === "NYC" ? msg = "Ok, sounds good." : msg = "No go.";
+  
+  return msg;
 }
 
 function switchOnCharmFromTip(){
   // Write your code here!
 }
 
-scuberGreetingForFeet(350);
+// scuberGreetingForFeet(350);
