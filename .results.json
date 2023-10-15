@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 1,
-    "start": "2023-10-14T08:25:34.951Z",
-    "end": "2023-10-14T08:25:35.215Z",
-    "duration": 264
+    "start": "2023-10-15T00:05:55.446Z",
+    "end": "2023-10-15T00:05:56.092Z",
+    "duration": 646
   },
   "tests": [
     {
@@ -23,7 +23,7 @@
     {
       "title": "charges 20 dollars for a distance between 400 and 2000 feet",
       "fullTitle": "index.js scuberGreetingForFeet() charges 20 dollars for a distance between 400 and 2000 feet",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
         "message": "expected 'This one is on me!' to equal 'That will be twenty bucks.'",
